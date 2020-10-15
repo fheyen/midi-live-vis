@@ -40,7 +40,7 @@ export default class App extends Component {
     onResize = () => {
         this.setState({
             viewSize: {
-                outerWidth: Math.floor(window.innerWidth - 50),
+                outerWidth: Math.floor(window.innerWidth - 20),
                 outerHeight: Math.floor(window.innerHeight - 100)
             }
         });
