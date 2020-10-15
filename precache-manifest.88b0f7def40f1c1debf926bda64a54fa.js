@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc403a0e844ddef81ed821fafcb18ce6",
+    "revision": "941780a4d832b7fc2fb08b4a3e7afb96",
     "url": "/midi-live-vis/index.html"
   },
   {
-    "revision": "e4c20bfee4c5e7b818d5",
+    "revision": "fdbf877f3a34293ac3c8",
     "url": "/midi-live-vis/static/css/main.03dff141.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/midi-live-vis/static/js/2.0d3261a2.chunk.js.LICENSE"
   },
   {
-    "revision": "e4c20bfee4c5e7b818d5",
-    "url": "/midi-live-vis/static/js/main.8db7971a.chunk.js"
+    "revision": "fdbf877f3a34293ac3c8",
+    "url": "/midi-live-vis/static/js/main.9e8c1c7b.chunk.js"
   },
   {
     "revision": "49aec70c64e560e15e15",
