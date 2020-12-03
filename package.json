@@ -1,6 +1,6 @@
 {
   "name": "midi-live-vis",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "homepage": "https://fheyen.github.io/midi-live-vis/",
   "private": false,
   "dependencies": {
