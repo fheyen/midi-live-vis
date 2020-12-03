@@ -3,7 +3,7 @@ import './style/App.css';
 // Views
 import PitchTimeChart from './components/PitchTimeChart';
 // API, data etc.
-import MidiInputManager from './lib/MidiInputManager';
+import { MidiInputManager } from 'musicvis-lib';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 

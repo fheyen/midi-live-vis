@@ -6,7 +6,7 @@ import { select } from 'd3-selection';
 import View from '../lib/ui/View';
 import { schemeCategory10 } from 'd3-scale-chromatic';
 import { drawNoteTrapezoid, setupCanvas, clipLeftRight } from '../lib/ui/Graphics';
-import { getMidiNoteByNr } from '../lib/Midi';
+import { Midi } from 'musicvis-lib';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faToggleOn, faToggleOff } from '@fortawesome/free-solid-svg-icons';
 
@@ -55,7 +55,7 @@ export default class PitchTimeChart extends View {
         // TODO: allow to switch between MIDI nr and note name and drum label
         const yAxis = axisLeft(y);
         if (yAxisLabelType === 'note') {
-            yAxis.tickFormat(d => getMidiNoteByNr(d)?.label);
+            yAxis.tickFormat(d => Midi.getMidiNoteByNr(d)?.label);
         } else {
             yAxis.tickFormat(d => Math.floor(d));
         }
